@@ -1,0 +1,81 @@
+<div class="container mt-5 mb-5">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 style="color:#40c464; font-weight: bold;">Cart Items</h1>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Price</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of cartItems">
+                        <td>{{item.sneakerName}}</td>
+                        <td>{{item.sneakerPrice | currency:'USD'}}</td>
+                        <td>
+                            <button class="btn btn-danger" (click)="removeFromCart(item)">Remove</button>
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td></td>
+                        <td><strong>Total:</strong></td>
+                        <td>{{getTotal() | currency:'USD'}}</td>
+                    </tr>
+                </tfoot>
+            </table>
+            <div class="d-flex justify-content-end" style="padding-top:2%">
+                <button class="btn btn-primary me-2" (click)="clearCart()">Clear Cart</button>
+            </div>
+            <h1 style="padding-top:5%; color:#40c464; font-weight: bold;">Checkout Information</h1>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="address" class="form-label">Address</label>
+                            <input type="text" class="form-control" id="address" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">Credit Card Number</label>
+                            <input type="text" class="form-control" id="cardNumber" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">CVV</label>
+                            <input type="text" class="form-control" id="cardNumber" required>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="mb-3">
+                            <label for="expDate" class="form-label">Expiration Date (MM-YY)</label>
+                            <input type="text" class="form-control" id="expDate" required>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-end">
+                    <button style="box-shadow: 0 0 20px #3FC060" type="button" class="btn btn-success" (click)="checkout(); clearCart()">Checkout</button>
+                </div>
+        </div>
+    </div>
+</div>

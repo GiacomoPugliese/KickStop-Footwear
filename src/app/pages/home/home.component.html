@@ -1,0 +1,42 @@
+<div class="banner">
+    <div class="content">
+        <div style="display: flex; align-items: center; padding-bottom:5%;">
+            <img style="max-width: 150px; width: 100%; filter: drop-shadow(-1px -1px 0 white) drop-shadow(1px -1px 0 black) drop-shadow(-1px 1px 0 black) drop-shadow(1px 1px 0 black);" class="img-fluid" src="../../../assets/img/KickStopLogo2.png" alt="">
+            <h1  style="padding-left:10px; color:#40c464; text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">KickStop</h1>
+        </div>
+        <h2 class="mb-4" style="color:#40c464; text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">The best place</h2>
+        <h2 class="mb-5" style="color:#40c464; text-shadow: -1px -1px 0 white, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;">to shop footwear.</h2>
+        <a routerLink="../menu" style="box-shadow: 0 0 30px #3FC060; color:#40c464; text-shadow: -0.5px -0.5px 0 white, 1px -0.5px 0 black, -0.5px 0.5px 0 black, 0.5px 0.5px 0 black;">SHOP NOW <i class="bi bi-arrow-right"></i></a>
+    </div>
+</div>
+<!-- step  -->
+<div class="container mt-5 mb-5">
+    <h1 class="text-center">In partnership with a variety of <span class="highlight">brands</span></h1>
+    <div class="row mt-5">
+        <div style="display: flex; justify-content: center; align-items: center;">
+            <img style="max-width: 600px; width: 100%;" class="img-fluid" src="../../../assets/img/Logos2.PNG" alt="">
+        </div>
+    </div>
+</div>
+
+  
+<!-- foodbox  -->
+<div class="container mt-4 mb-4">
+    <h1 class="text-center">Shoes that are <span class="highlight">trending</span></h1>
+    <div class="row">
+        <div class="col-lg-3 mt-3" *ngFor="let fd of sneakerData;index as i">
+            <div class="sneakerbox" *ngIf="i<=3">
+                <img class="img-fluid" src="{{fd.sneakerImg}}" />
+                <h1>{{fd.sneakerName}}</h1>
+                <p>{{fd.sneakerPrice | currency:'USD'}}</p>
+            </div>
+        </div>
+    </div>
+    <a routerLink="../menu" class="viewmorebtn" style="box-shadow: 0 0 20px #3FC060; color:white">View more <i class="bi bi-arrow-right"></i></a>
+</div>
+
+<div class="container">
+    <h1 class="text-center">What we do at <span class="highlight">KickStop</span></h1>
+    <br>
+    <h1 class="text-center" style="color:grey;">KickStop is a cutting-edge shoe company that is dedicated to delivering the latest and greatest in footwear technology. Our team of experts work tirelessly to create shoes that not only look great, but also perform to the highest standards. From running shoes to basketball sneakers, we have a wide range of products that are designed to meet the needs of athletes at all levels. Our shoes are made with the finest materials and are built to last, providing comfort and support for years to come. At KickStop, we are passionate about shoes and are committed to providing our customers with the best products and service possible.</h1>
+</div>

@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "login-d2fd5": {
+      "hosting": {
+        "KickStop": [
+          "login-d2fd5"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "login-d2fd5"
+  }
+}
