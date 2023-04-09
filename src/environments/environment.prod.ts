@@ -1,13 +1,13 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: "AIzaSyBFiTV33byHWhugZ1UiJU5dlrlI_gCyeVQ",
-    authDomain: "myfirebase-40fae.firebaseapp.com",
-    databaseURL: "https://myfirebase-40fae-default-rtdb.europe-west1.firebasedatabase.app",
-    projectId: "myfirebase-40fae",
-    storageBucket: "myfirebase-40fae.appspot.com",
-    messagingSenderId: "271466932238",
-    appId: "1:271466932238:web:1cb826c8b4063b0d6e345f",
-    measurementId: "G-KRT29MXV89"
+    apiKey: "AIzaSyBRt_gLP8e0ZCOBFxSZ6Q0Wh-u3RKuLcig",
+    authDomain: "kickstop-6e2d1.firebaseapp.com",
+    databaseURL: "https://kickstop-6e2d1-default-rtdb.firebaseio.com",
+    projectId: "kickstop-6e2d1",
+    storageBucket: "kickstop-6e2d1.appspot.com",
+    messagingSenderId: "273778441238",
+    appId: "1:273778441238:web:85fa006b27fe6dfa17c937",
+    measurementId: "G-E2KS6T9CF1"
   }
 };

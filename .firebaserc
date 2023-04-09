@@ -1,14 +1,16 @@
 {
+  "projects": {
+    "default": "kickstop-6e2d1",
+    "KickStop": "kickstop-6e2d1"
+  },
   "targets": {
-    "login-d2fd5": {
+    "kickstop-6e2d1": {
       "hosting": {
         "KickStop": [
-          "login-d2fd5"
+          "kickstop-6e2d1"
         ]
       }
     }
   },
-  "projects": {
-    "default": "login-d2fd5"
-  }
+  "etags": {}
 }

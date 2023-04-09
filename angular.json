@@ -100,8 +100,8 @@
             "prerender": false,
             "ssr": false,
             "browserTarget": "KickStop:build:production",
-            "firebaseProject": "login-d2fd5",
-            "firebaseHostingSite": "login-d2fd5"
+            "firebaseProject": "kickstop-6e2d1",
+            "firebaseHostingSite": "kickstop-6e2d1"
           }
         }
       }

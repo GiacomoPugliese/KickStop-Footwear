@@ -14,3 +14,13 @@ input {
 a{
   text-decoration: none;
 }
+
+.login-btn{
+  background-color: var(--primary-color);
+  color: white;
+  margin-bottom:1.5%;
+}
+.login-btn:hover{
+  background-color: #178033;
+}
+
