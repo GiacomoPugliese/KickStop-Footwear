@@ -1,3 +1,19 @@
 a{
  text-decoration: none;
 }
+.card {
+    margin-top: 30%;
+    border: 2px solid var(--primary-color);
+    box-shadow: 0 0 50px #3FC060;
+}
+.reg-btn{
+    background-color: var(--primary-color);
+    color: white;
+    margin-bottom:1.5%;
+  }
+.reg-btn:hover{
+    background-color: #178033;
+}
+input {
+    border: 2px solid royalblue;
+}

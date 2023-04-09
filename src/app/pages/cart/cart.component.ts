@@ -60,17 +60,19 @@ removeFromCart(item: any) {
     container.style.left = '0';
     container.style.width = '100%';
     container.style.height = '100%';
-    container.style.display = 'flex';
-    container.style.justifyContent = 'center';
-    container.style.alignItems = 'center';
-    
+    container.style.display = 'grid'; // Change display to 'grid'
+    container.style.placeItems = 'center'; // Center the card using 'place-items'
+
     // set card styles
     card.style.backgroundColor = '#fff';
     card.style.padding = '20px';
     card.style.borderRadius = '5px';
-    card.style.boxShadow = '0 0 10px rgba(0, 0, 0, 0.3)';
+    card.style.boxShadow = '0 0 70px #3FC060';
     card.style.textAlign = 'center';
     card.style.position = 'relative'; // set position to relative
+    card.style.width = '350px'; // set card width
+    card.style.height = '250px'; // set card height
+
     
     // create close button
     const closeButton = document.createElement('button');
@@ -95,7 +97,7 @@ removeFromCart(item: any) {
     continueButton.style.padding = '10px';
     continueButton.style.borderRadius = '5px';
     continueButton.style.border = 'none';
-    continueButton.style.fontSize = '16px';
+    continueButton.style.fontSize = '20px';
     continueButton.style.cursor = 'pointer';
     continueButton.innerHTML = 'Continue Shopping';
     
@@ -105,7 +107,7 @@ removeFromCart(item: any) {
     });
     
     // set card content
-    card.innerHTML = '<h2>Order Received!<\h2><h5>Thank you for shopping with us.<\h5><h5>Your order should arrive in 3-4 business days.</h5>';
+    card.innerHTML = '<h1>Order Received!<\h1><h2>Thank you for shopping with us.<\h2><h3>Your order should arrive in 3-4 business days.</h3>';
     
     // append close button, continue button, and card to container
     card.appendChild(closeButton);

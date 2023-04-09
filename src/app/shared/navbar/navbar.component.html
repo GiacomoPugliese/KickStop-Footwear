@@ -3,9 +3,9 @@
     <a class="nav-link navbar-brand login-button" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >
       <img class="img-fluid" style="max-width:50px" src="../../assets/img/KickStopLogo2.png" alt="">
     </a>
-    <a *ngIf="!authService.isLoggedIn" class="navbar-brand login-button" routerLink="login"><i class="bi bi-person"></i>Login</a>
-    <a *ngIf="authService.isLoggedIn" class="navbar-brand login-button" (click)="authService.logout()"  routerLink="home"><i class="bi bi-person"></i>Logout</a>
-    <a *ngIf="authService.isLoggedIn" >({{authService.email}})</a>
+    <a *ngIf="!authService.loggedIn()" class="navbar-brand login-button" routerLink="login"><i class="bi bi-person"></i>Login</a>
+    <a *ngIf="authService.loggedIn()" class="navbar-brand login-button" (click)="authService.logout()"  routerLink="home"><i class="bi bi-person"></i>Logout</a>
+    <a *ngIf="authService.loggedIn()" >({{authService.email}})</a>
 
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -4,13 +4,14 @@
 
 export const environment = {
   firebase: {
-    projectId: 'players-app-2c565',
-    appId: '1:960089914971:web:563e2b891b9d46765d097e',
-    databaseURL: 'https://players-app-2c565-default-rtdb.europe-west1.firebasedatabase.app',
-    storageBucket: 'players-app-2c565.appspot.com',
-    apiKey: 'AIzaSyAlLWvsaKcqSv4H-u34qdyVKR5BlEu0DOI',
-    authDomain: 'players-app-2c565.firebaseapp.com',
-    messagingSenderId: '960089914971',
+    apiKey: "AIzaSyBRt_gLP8e0ZCOBFxSZ6Q0Wh-u3RKuLcig",
+    authDomain: "kickstop-6e2d1.firebaseapp.com",
+    databaseURL: "https://kickstop-6e2d1-default-rtdb.firebaseio.com",
+    projectId: "kickstop-6e2d1",
+    storageBucket: "kickstop-6e2d1.appspot.com",
+    messagingSenderId: "273778441238",
+    appId: "1:273778441238:web:85fa006b27fe6dfa17c937",
+    measurementId: "G-E2KS6T9CF1"
   },
 
   }

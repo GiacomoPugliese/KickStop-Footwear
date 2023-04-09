@@ -1,35 +1,48 @@
-.footer
-{
+.footer {
     overflow: hidden;
     position: sticky;
     top: 100%;
-    background-color:#000;
-
+    background-color: #000;
 }
 
-h1 
-{
+h1 {
     font-weight: bold;
     color: #fff;
     font-size: 20px;
 }
-p 
-{
+
+p {
     color: #fff;
     font-size: 12px;
 }
-a 
-{
+
+a {
     color: #fff;
     text-decoration: none;
     padding: 0px 10px;
     font-size: 17px;
 }
-a:hover 
-{
+
+a:hover {
     color: var(--primary-color);
 }
-i 
-{
+
+i {
     padding: 0px 10px;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 984px) {
+    .name, .nav, .socialmedia {
+        text-align: center;
+    }
+
+    .nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .socialmedia {
+        justify-content: center !important;
+    }
 }
