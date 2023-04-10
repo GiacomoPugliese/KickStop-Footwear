@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light" >
   <div class="container-fluid">
     <a class="nav-link navbar-brand login-button" routerLink="home" routerLinkActive="active-link" [routerLinkActiveOptions]="{exact:true}" >
-      <img class="img-fluid" style="max-width:50px" src="../../assets/img/KickStopLogo2.png" alt="">
+      <img class="img-fluid" style="max-width:50px" src="../../assets/img/KickStopLogo3.png" alt="">
     </a>
     <a *ngIf="!authService.loggedIn()" class="navbar-brand login-button" routerLink="login"><i class="bi bi-person"></i>Login</a>
     <a *ngIf="authService.loggedIn()" class="navbar-brand login-button" (click)="authService.logout()"  routerLink="home"><i class="bi bi-person"></i>Logout</a>
