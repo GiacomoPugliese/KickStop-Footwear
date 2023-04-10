@@ -5,6 +5,9 @@
     background-position: center top;
     background-size: cover;
 }
+.brand{
+    display:none;
+}
 .content
 {
     top:20%;
@@ -105,6 +108,13 @@ p {
 }
 @media screen and (max-width:600px)
 {
+    .brand{
+        display:flex;
+        font-size:75px !important;
+    }
+.logo{
+    display:none;
+}
     .banner
 {
     height: 650px;
