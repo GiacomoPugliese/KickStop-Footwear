@@ -10,3 +10,8 @@
 .login-button{
     color: blue;
 }
+@media screen and (max-width:600px){
+    .logout{
+        display:none
+    }
+}
