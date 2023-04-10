@@ -12,9 +12,10 @@
                         <label for="exampleInputEmail1" class="form-label">Email</label>
                         <input title="" type="email" class="form-control" name="email" [(ngModel)]="email">
                       </div>
-                      <div class="mb-3">
+                      <div class="mb-3 position-relative">
                         <label for="exampleInputPassword1" class="form-label">Password</label>
-                        <input title="" type="password" class="form-control" name="password" [(ngModel)]="password">
+                        <input placeholder="" [type]="passwordVisible ? 'text' : 'password'" class="form-control" name="password" [(ngModel)]="password">
+                        <i class="fas fa-eye position-absolute eye-icon end-0 pe-3" (click)="togglePasswordVisibility()" style="cursor:pointer;"></i>
                       </div>
                       <button type="button" class="btn reg-btn" (click)="register()">Register</button>
                       <div class="row">

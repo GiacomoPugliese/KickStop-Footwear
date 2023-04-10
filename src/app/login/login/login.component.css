@@ -23,7 +23,10 @@ a{
 .login-btn:hover{
   background-color: #178033;
 }
-
+.eye-icon {
+  top: calc(50% + 8px);
+  transform: translateY(-30%);
+}
 @media screen and (max-width:600px)
 {
   .container-fluid{
