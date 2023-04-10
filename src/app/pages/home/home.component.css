@@ -121,7 +121,7 @@ p {
 }
 .content
 {
-    top: 27%;
+    top: 35%;
     left: 10%;
     position: absolute;
 }
@@ -145,6 +145,6 @@ p{
 {
     .content
     {
-        top: 35% !important;
+        top: 65% !important;
     }
 }
