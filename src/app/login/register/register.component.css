@@ -17,3 +17,9 @@ a{
 input {
     border: 2px solid royalblue;
 }
+@media screen and (max-width:600px)
+{
+  .container-fluid{
+    height: 60vh;
+  }
+}

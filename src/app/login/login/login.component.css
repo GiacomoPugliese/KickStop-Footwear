@@ -24,3 +24,9 @@ a{
   background-color: #178033;
 }
 
+@media screen and (max-width:600px)
+{
+  .container-fluid{
+    height: 60vh;
+  }
+}

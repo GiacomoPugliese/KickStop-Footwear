@@ -1,7 +1,6 @@
 {
   "projects": {
-    "default": "kickstop-6e2d1",
-    "KickStop": "kickstop-6e2d1"
+    "default": "kickstop-6e2d1"
   },
   "targets": {
     "kickstop-6e2d1": {
