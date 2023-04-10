@@ -38,4 +38,19 @@ export class LoginComponent implements OnInit {
 
   }
 
+  forgotPassword() {
+    if (this.email === '') {
+      alert('Please enter your email');
+      return;
+    }
+    alert("Instructions for forgotten password sent to your email address!")
+    this.auth.forgotPassword(this.email);
+  }
+
+  passwordVisible = false;
+
+  togglePasswordVisibility() {
+  this.passwordVisible = !this.passwordVisible;
+}
+
 }

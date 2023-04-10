@@ -38,4 +38,9 @@ export class RegisterComponent implements OnInit {
 
   }
 
+  passwordVisible = false;
+
+  togglePasswordVisibility() {
+  this.passwordVisible = !this.passwordVisible;
+  }
 }

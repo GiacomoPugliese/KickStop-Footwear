@@ -23,3 +23,7 @@ input {
     height: 60vh;
   }
 }
+.eye-icon {
+    top: calc(50% + 8px);
+    transform: translateY(-30%);
+  }
