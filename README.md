@@ -1,4 +1,3 @@
-#Kickstop-Footwear
 
 Live at: https://kickstop-6e2d1.web.app/home 
 
