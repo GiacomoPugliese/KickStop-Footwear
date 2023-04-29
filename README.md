@@ -1,4 +1,4 @@
-Developed an image filtering software as a part of the Harvard CS50 cirriculum, using C to implement filters such as grayscale, edge detection, reflect, and blur for image manipulation. Applied advanced algorithms like the Sobel operator for precise edge detection, and optimized the program's execution through effective memory management and minimizing resource usage.
+KickStop is a full stack web application for footwear shopping, developed using the Angular framework. The application features a secure user login and authentication system powered by Firebase, ensuring a safe browsing experience. The website's real time database allows users to conveniently track their cart history, enabling them to pick up shopping right where they left off, as well as track their past order history.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.1.4.
