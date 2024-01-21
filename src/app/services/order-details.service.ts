@@ -77,14 +77,14 @@ export class OrderDetailsService {
       sneakerName: "Nike Air Max 90",
       sneakerDetails: "Leather, synthetic, and mesh upper with visible Max Air cushioning for a classic look.",
       sneakerPrice: 120,
-      sneakerImg: "https://th.bing.com/th/id/OIP.3kBmXOqLFSZxnkM-TNDyvAHaHa?pid=ImgDet&w=800&h=800&rs=1"
+      sneakerImg: "https://th.bing.com/th/id/OIP.B3cWmIaVKW12m4fu-UId7gHaF9?pid=ImgDet&w=474&h=381&rs=1"
     },
     {
       id: 11,
       sneakerName: "Reebok Classic Leather",
       sneakerDetails: "Soft garment leather upper with a classic silhouette for everyday style.",
       sneakerPrice: 75,
-      sneakerImg: "https://www.freshnessmag.com/.image/t_share/MTM3OTI3MjA0ODI1NDA5Mzg3/reebok-classic-leather-suede---summer-2013-pack---1.jpg"
+      sneakerImg: "https://th.bing.com/th/id/R.72379501bd76df9d9649c573677b63cf?rik=oDsTbZza3aR0%2bg&riu=http%3a%2f%2fdemandware.edgesuite.net%2fsits_pod27%2fdw%2fimage%2fv2%2fAAJP_PRD%2fon%2fdemandware.static%2f-%2fSites-reebok-products%2fdefault%2fdw4017c55f%2fzoom%2f49797_01.jpg%3fsw%3d2000%26sfrm%3djpg&ehk=s57on%2bTuStEFjQppHfxOVq%2bZrH2BNHrnw3%2bPVi9e5MI%3d&risl=&pid=ImgRaw&r=0"
     },
     {
       id: 12,
